@@ -9,7 +9,7 @@ export default function Navbar() {
                 <div className="navbar-brand">
                     <Link className="navbar-item" to="/">
                         LOGO
-          </Link>
+                    </Link>
                     <a role="button" className="navbar-burger burger" aria-label="menu"
                         aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
@@ -22,20 +22,20 @@ export default function Navbar() {
                     <div className="navbar-start">
                         <Link to='/Uz' className="navbar-item">
                             Ўзбекистон
-            </Link>
+                         </Link>
 
                         <Link to='/jahon' className="navbar-item">
                             Жаҳон
-            </Link>
+                         </Link>
                         <Link to='/ecnom' className="navbar-item">
                             Иқтисодиёт
-            </Link>
-                        <NavLink to='/jamiyat' className="navbar-item">
+                          </Link>
+                        <Link to='/jamiyat' className="navbar-item">
                             Жамият
-            </NavLink>
+                         </Link>
                         <Link to='/texnolog' className="navbar-item">
                             Технология
-            </Link>
+                          </Link>
                     </div>
 
                     <div className="navbar-end">
@@ -46,7 +46,7 @@ export default function Navbar() {
                                 </Link>
                                 <Link to='/login' className="button is-light">
                                     Log in
-               </Link>
+                                </Link>
                             </div>
                         </div>
                     </div>
